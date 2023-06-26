@@ -1,0 +1,85 @@
+body{
+    background-image: url("../images/bkgrd.jpg");
+}
+.shopping-cart{
+    padding: 5px;
+    margin: 10px;
+}
+.shopping-cart h1{
+    color: #583672;
+    text-align: center;
+}
+.shopping-cart table{
+    width:90%;
+    padding: 5px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    border:solid 2px #583672;
+}
+.shopping-cart tbody{
+    color: #583672;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.shopping-cart tbody tr th{
+    background-color: #e8cefc ;
+    border-radius: 20px;
+    width:fit-content;
+    padding: 5px;
+}
+.shopping-cart tbody tr td{
+    padding: 20px;
+   
+}
+.shopping-cart tbody tr td a,.submit{
+    text-decoration: none;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    background: #583672;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+.shopping-cart tbody tr td a,.submit:hover{
+    background: white;
+    color: #583672;
+    transition: 0.5s;
+}
+
+.submit{
+    width: fit-content;
+}
+.shopping-cart tbody .table-bottom{
+    font-weight: bold;
+
+}
+.shopping-cart tbody tr td input[type="number"]{
+    width: 40px;
+
+}
+
+@media (max-width:1200px){
+
+    .shopping-cart{
+ 
+        width: 700px;
+    height: 600px;
+ 
+    }
+ 
+ 
+ 
+    .shopping-cart table{
+ 
+       width: 1000px;
+ 
+    }
+
+ 
+ } 

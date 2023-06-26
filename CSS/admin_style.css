@@ -1,0 +1,47 @@
+ .additem{
+
+    height: 80%;
+    background-color: #eed7ff;
+    position: relative;
+    padding: 15px 20px;
+    display: block;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #583672;
+    margin:10px;
+}
+.additem form{
+    margin: 20px;
+}
+.additem input {
+    border: none;
+    width: 80%;
+    margin: 10px 10px 10px 0px;
+    border-bottom: 2px solid #4f30677d;
+    padding: 7px 10px;
+    width: 80%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.submit {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background: #583672;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+.submit:hover{
+    background: white;
+    color: #583672;
+    transition: 0.5s;
+}
