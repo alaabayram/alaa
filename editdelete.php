@@ -102,7 +102,7 @@ $result = mysqli_query($con,$query);
         $_SESSION['post_info']=$item;}
     ?>
     <h2 style="text-align: center;">Edit item:</h2>
-    <form method="post" enctype="multipart/form-data" action="editdelete.php?id=<?= $id?>" ><br>
+    <form method="post" enctype="multipart/form-data" action="editdelete.php?id=<?= $id?>" style="  margin-left:400px;"><br>
 
     <img src="<?php echo $_SESSION['post_info']['image']?>" style="width:9%;display:block;">
     <input value="<?php echo $_SESSION['post_info']['name']?>" type="text" name="name" placeholder="name" required><br>
