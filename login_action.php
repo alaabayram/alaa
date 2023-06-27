@@ -22,8 +22,10 @@ if (isset($_POST["submit"])) {
             $_SESSION['pos']=$user['position'];
             $_SESSION["logged_in"] = 'true';
 
-
-            header("location:index.php");
+            if($_SESSION['pos']==1){
+                header("location:addtoshop.php");
+            }else{
+            header("location:index.php");}
             die();
         }
 
